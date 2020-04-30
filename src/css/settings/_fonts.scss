@@ -2,6 +2,33 @@
 // FONTS
 // =============================================================================
 
-$font-family-body: serif !default;
-$font-family-heading: sans-serif !default;
+@font-face {
+    font-family: "HKGothic-Black";
+    src: url("/fonts/HKGothic-Black.eot") format("eot");
+    src: url("/fonts/HKGothic-Black.woff2") format("woff2"),
+        url("/fonts/HKGothic-Black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HKGothic-Bold";
+    src: url("/fonts/HKGothic-Bold.eot") format("eot");
+    src: url("/fonts/HKGothic-Bold.woff2") format("woff2"),
+        url("/fonts/HKGothic-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HKGothic-Medium";
+    src: url("/fonts/HKGothic-Medium.eot") format("eot");
+    src: url("/fonts/HKGothic-Medium.woff2") format("woff2"),
+        url("/fonts/HKGothic-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-family-body: "HKGothic-Medium" !default;
+$font-family-heading: "HKGothic-Black" !default;
 $font-family-monospace: monospace !default;

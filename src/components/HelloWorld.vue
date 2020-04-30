@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-
+    <h1>Hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
   </div>
 </template>
 
