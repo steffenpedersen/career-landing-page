@@ -1,6 +1,6 @@
 <template>
   <section class="c-slider">
-    <h2 class="c-slider__heading">
+    <h2 class="c-slider__heading" data-aos="fade-in">
       Arbejd med de
       <br />største brands
     </h2>

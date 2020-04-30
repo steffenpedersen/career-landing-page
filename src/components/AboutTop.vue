@@ -2,7 +2,7 @@
   <section class="c-about c-about--top">
     <div class="c-about__image c-about__image--top"></div>
     <div class="c-about__text">
-      <p>Vi skifter jævnligt de vante rammer ud med nye inspirerende omgivelser.</p>
+      <p data-aos="fade-in">Vi skifter jævnligt de vante rammer ud med nye inspirerende omgivelser.</p>
     </div>
   </section>
 </template>

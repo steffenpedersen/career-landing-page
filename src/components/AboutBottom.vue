@@ -1,7 +1,7 @@
 <template>
   <section class="c-about c-about--bottom">
     <div class="c-about__text">
-      <p>Der er altid liv på kontoret, med mulighed for fordybelse.</p>
+      <p data-aos="fade-in">Der er altid liv på kontoret, med mulighed for fordybelse.</p>
     </div>
     <div class="c-about__image c-about__image--bottom"></div>
   </section>
