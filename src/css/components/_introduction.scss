@@ -6,10 +6,9 @@
         left: -1.3em;
     }
 
-    &__wrap {
-        position: relative;
-        margin-left: 15em;
-        margin-right: 15em;
+    &__center {
+        display: flex;
+        justify-content: center;
     }
 
     &__title {
@@ -19,6 +18,8 @@
     }
 
     &__image-meeting {
+        margin-left: 2em;
+        margin-right: 2em;
         margin-top: -3em;
     }
 }

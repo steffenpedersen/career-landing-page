@@ -1,13 +1,18 @@
 <template>
   <section class="c-introduction">
-    <header class="c-header">
-      <img class="c-header__logo" src="../assets/svg/grafikr_logo.svg" alt />
-    </header>
-    <div class="c-introduction__wrap">
-      <img class="c-introduction__circle" src="../assets/svg/grafikr_circle.svg" alt />
-      <h1 class="c-introduction__title">Prisvindende e-commerce bureau</h1>
+    <div class="c-introduction__center">
+      <span class="u-position-relative">
+        <img class="c-introduction__circle" src="../assets/svg/grafikr_circle.svg" alt />
+        <h1 class="c-introduction__title">
+          Prisvindende
+          <br />e-commerce
+          <br />bureau
+        </h1>
+      </span>
     </div>
-    <img class="c-introduction__image-meeting" src="../assets/images/grafikr_meeting.jpg" alt />
+    <div class="c-introduction__image-meeting">
+      <img src="../assets/images/grafikr_meeting.jpg" alt />
+    </div>
   </section>
 </template>
 
@@ -19,6 +24,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "../css/components/header.scss";
 @import "../css/components/introduction.scss";
 </style>
