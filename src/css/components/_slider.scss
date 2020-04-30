@@ -1,0 +1,20 @@
+.c-slider {
+    &__heading {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 39em;
+        position: relative;
+    }
+    
+    &__text {
+        position: absolute;
+        bottom: 1em;
+        color: white;
+    }
+}

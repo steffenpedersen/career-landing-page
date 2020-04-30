@@ -6,6 +6,7 @@
       <AboutTop />
       <AboutBottom />
       <Video />
+      <Slider />
     </main>
   </div>
 </template>
@@ -17,6 +18,7 @@ import Introduction from "@/components/Introduction.vue";
 import AboutTop from "@/components/AboutTop.vue";
 import AboutBottom from "@/components/AboutBottom.vue";
 import Video from "@/components/Video.vue";
+import Slider from "@/components/Slider.vue";
 
 export default {
   name: "Home",
@@ -25,7 +27,8 @@ export default {
     Introduction,
     AboutTop,
     AboutBottom,
-    Video
+    Video,
+    Slider
   }
 };
 </script>
