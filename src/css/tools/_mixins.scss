@@ -1,3 +1,21 @@
 // =============================================================================
 // MIXINS
 // =============================================================================
+
+@mixin employee($name) {
+    &:after {
+        content: "";
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../assets/employees/#{$name}.jpg");
+        height: 5em;
+        width: 5em;
+        position: absolute;
+        top: -5em;
+        left: -2em;
+        border-radius: 50%;
+        border: 5px solid $color-light;
+        pointer-events: none;
+    }
+}

@@ -7,6 +7,7 @@
       <AboutBottom />
       <Video />
       <Slider />
+      <Colleagues />
     </main>
   </div>
 </template>
@@ -19,6 +20,7 @@ import AboutTop from "@/components/AboutTop.vue";
 import AboutBottom from "@/components/AboutBottom.vue";
 import Video from "@/components/Video.vue";
 import Slider from "@/components/Slider.vue";
+import Colleagues from "@/components/Colleagues.vue";
 
 export default {
   name: "Home",
@@ -28,7 +30,8 @@ export default {
     AboutTop,
     AboutBottom,
     Video,
-    Slider
+    Slider,
+    Colleagues
   }
 };
 </script>
