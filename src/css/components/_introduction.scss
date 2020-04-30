@@ -1,0 +1,24 @@
+.c-introduction {
+    &__circle {
+        position: absolute;
+        height: 12em;
+        top: -4em;
+        left: -1.3em;
+    }
+
+    &__wrap {
+        position: relative;
+        margin-left: 15em;
+        margin-right: 15em;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__image-meeting {
+        margin-top: -3em;
+    }
+}
