@@ -5,6 +5,7 @@
       <Introduction />
       <AboutTop />
       <AboutBottom />
+      <Video />
     </main>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Header from "@/components/Header.vue";
 import Introduction from "@/components/Introduction.vue";
 import AboutTop from "@/components/AboutTop.vue";
 import AboutBottom from "@/components/AboutBottom.vue";
+import Video from "@/components/Video.vue";
 
 export default {
   name: "Home",
@@ -22,7 +24,8 @@ export default {
     Header,
     Introduction,
     AboutTop,
-    AboutBottom
+    AboutBottom,
+    Video
   }
 };
 </script>

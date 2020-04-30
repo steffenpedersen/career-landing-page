@@ -1,0 +1,22 @@
+.c-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0;
+
+    height: 40em;
+    overflow: hidden;
+    position: relative;
+    
+    &__title {
+        text-align: center;
+        position: absolute;
+        color: $color-light;
+        font-size: $font-size-xl;
+    }
+
+    &__content {
+        width: 100%;
+    }
+}
