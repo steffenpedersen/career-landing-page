@@ -4,6 +4,8 @@
         height: 12em;
         top: -4em;
         left: -1.3em;
+
+        animation: spin 60s linear infinite;
     }
 
     &__center {
@@ -21,5 +23,14 @@
         margin-left: 2em;
         margin-right: 2em;
         margin-top: -3em;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
     }
 }

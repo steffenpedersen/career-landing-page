@@ -3,7 +3,7 @@
     <div class="c-introduction__center">
       <span class="u-position-relative">
         <img class="c-introduction__circle" src="../assets/svg/grafikr_circle.svg" alt />
-        <h1 class="c-introduction__title">
+        <h1 class="c-introduction__title rellax">
           Prisvindende
           <br />e-commerce
           <br />bureau
