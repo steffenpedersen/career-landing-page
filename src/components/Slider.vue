@@ -6,20 +6,17 @@
     </h2>
     <carousel :per-page="1" :mouse-drag="false">
       <slide>
-        <div class="c-slider__content c-slider__content--first">
-          <img src="../assets/images/grafikr_client_twttw.jpg" alt />
+        <div class="c-slider__content c-slider__content--twttw">
           <span class="c-slider__text">Then we take the world · Award winning management</span>
         </div>
       </slide>
       <slide>
-        <div class="c-slider__content c-slider__content--second">
-          <img src="../assets/images/grafikr_client_last.jpg" alt />
+        <div class="c-slider__content c-slider__content--last">
           <span class="c-slider__text">Läst · Big and bold e-commerce</span>
         </div>
       </slide>
       <slide>
-        <div class="c-slider__content c-slider__content--third">
-          <img src="../assets/images/grafikr_client_soyaconcept.jpg" alt />
+        <div class="c-slider__content c-slider__content--soyaconcept">
           <span class="c-slider__text">Soyaconcept · Conversion focused webdesign</span>
         </div>
       </slide>

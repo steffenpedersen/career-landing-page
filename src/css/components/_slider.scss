@@ -9,10 +9,26 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        max-height: 10em;
+        height: 10em;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &--twttw {
+            background-image: url("../assets/images/grafikr_client_twttw.jpg");
+        }
+
+        &--last {
+            background-image: url("../assets/images/grafikr_client_last.jpg");
+        }
+
+        &--soyaconcept {
+            background-image: url("../assets/images/grafikr_client_soyaconcept.jpg");
+        }
 
         @media screen and (min-width: $breakpoint-small) {
-            max-height: 15em;
+            height: 15em;
         }
 
         @media screen and (min-width: $breakpoint-medium) {
@@ -20,7 +36,7 @@
         }
 
         @media screen and (min-width: $breakpoint-large) {
-            max-height: 39em;
+            height: 39em;
         }
     }
 
@@ -28,5 +44,8 @@
         position: absolute;
         bottom: 1em;
         color: white;
+        font-size: 1em;
+        max-width: 60vw;
+        text-align: center;
     }
 }
