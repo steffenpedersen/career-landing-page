@@ -1,9 +1,17 @@
 .c-header {
     display: flex;
     justify-content: center;
-    margin: 4em 0 5em;
+    margin: 2em 0;
+
+    @media screen and (min-width: $breakpoint-small) {
+        margin: 4em 0 5em;
+    }
 
     &__logo {
-        height: 2rem;
+        height: 1.5rem;
+
+        @media screen and (min-width: $breakpoint-small) {
+            height: 2rem;
+        }    
     }
 }

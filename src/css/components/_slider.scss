@@ -8,10 +8,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 39em;
         position: relative;
+        max-height: 10em;
+
+        @media screen and (min-width: $breakpoint-small) {
+            max-height: 15em;
+        }
+
+        @media screen and (min-width: $breakpoint-medium) {
+            height: 22em;
+        }
+
+        @media screen and (min-width: $breakpoint-large) {
+            max-height: 39em;
+        }
     }
-    
+
     &__text {
         position: absolute;
         bottom: 1em;

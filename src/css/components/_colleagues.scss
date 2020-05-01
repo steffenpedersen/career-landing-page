@@ -13,68 +13,103 @@
 }
 
 .c-colleague {
-    margin: 1em;
+    margin: 0.5em;
+    font-size: 0.6em;
     position: relative;
     cursor: pointer;
 
+    @media screen and (min-width: $breakpoint-small) {
+        margin: 0.6em;
+        font-size: 0.8em;
+    }
+
+    @media screen and (min-width: $breakpoint-medium) {
+        margin: 1em;
+        font-size: 1em;
+    }
+
     &__kiranan {
-        &:hover {
-            @include employee("kiranan");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("kiranan");
+            }
         }
     }
     &__erik {
-        &:hover {
-            @include employee("erik");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("erik");
+            }
         }
     }
     &__anders {
-        &:hover {
-            @include employee("anders");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("anders");
+            }
         }
     }
     &__lasse {
-        &:hover {
-            @include employee("lasse");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("lasse");
+            }
         }
     }
     &__simone {
-        &:hover {
-            @include employee("simone");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("simone");
+            }
         }
     }
     &__magnus {
-        &:hover {
-            @include employee("magnus");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("magnus");
+            }
         }
     }
     &__rasmus_p {
-        &:hover {
-            @include employee("rasmus_p");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("rasmus_p");
+            }
         }
     }
     &__christian {
-        &:hover {
-            @include employee("christian");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("christian");
+            }
         }
     }
     &__stefan {
-        &:hover {
-            @include employee("stefan");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("stefan");
+            }
         }
     }
     &__rasmus_m {
-        &:hover {
-            @include employee("rasmus_m");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("rasmus_m");
+            }
         }
     }
     &__tor {
-        &:hover {
-            @include employee("tor");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("tor");
+            }
         }
     }
     &__thomas {
-        &:hover {
-            @include employee("thomas");
+        @media screen and (min-width: $breakpoint-medium) {
+            &:hover {
+                @include employee("thomas");
+            }
         }
     }
 }
