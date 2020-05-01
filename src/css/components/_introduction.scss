@@ -3,7 +3,7 @@
         position: absolute;
         height: 6em;
         top: -2em;
-        left: -1.3em;
+        left: -3.8em;
 
         animation: spin 60s linear infinite;
 
@@ -19,7 +19,7 @@
 
         @media screen and (min-width: $breakpoint-large) {
             height: 12em;
-            top: -4em;
+            top: -4.4em;
         }
     }
 

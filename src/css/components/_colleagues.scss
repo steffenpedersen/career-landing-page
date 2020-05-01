@@ -3,12 +3,16 @@
     margin-bottom: 5em;
 
     @media screen and (min-width: $breakpoint-medium) {
-        margin-top: 5em;
+        margin-top: 6em;
+        margin-bottom: 10em;
         font-size: 0.8em;
     }
 
     &__heading {
         text-align: center;
+        text-transform: uppercase;
+        font-family: "HKGothic-Bold";
+        font-size: 1.8em;
     }
 
     &__all {
@@ -24,94 +28,98 @@
     cursor: pointer;
 
     @media screen and (min-width: $breakpoint-small) {
-        margin: 0.6em;
+        margin: 0.25em 0.5em;
         font-size: 0.8em;
     }
 
     @media screen and (min-width: $breakpoint-medium) {
-        margin: 1em;
-        font-size: 1em;
+        margin: 0.5em 1em;
+        font-size: 1.5em;
+    }
+
+    @media screen and (min-width: $breakpoint-large) {
+        font-size: 2.2em;
     }
 
     &__kiranan {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("kiranan");
             }
         }
     }
     &__erik {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("erik");
             }
         }
     }
     &__anders {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("anders");
             }
         }
     }
     &__lasse {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("lasse");
             }
         }
     }
     &__simone {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("simone");
             }
         }
     }
     &__magnus {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("magnus");
             }
         }
     }
     &__rasmus_p {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("rasmus_p");
             }
         }
     }
     &__christian {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("christian");
             }
         }
     }
     &__stefan {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("stefan");
             }
         }
     }
     &__rasmus_m {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("rasmus_m");
             }
         }
     }
     &__tor {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("tor");
             }
         }
     }
     &__thomas {
-        @media screen and (min-width: $breakpoint-medium) {
+        @media screen and (min-width: $breakpoint-large) {
             &:hover {
                 @include employee("thomas");
             }
