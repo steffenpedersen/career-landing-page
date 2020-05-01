@@ -7,8 +7,5 @@ module.exports = {
         path.resolve(__dirname, './src/css/main.scss'),
       ]
     }
-  },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/career-landing-page/'
-    : '/'
+  }
 }
