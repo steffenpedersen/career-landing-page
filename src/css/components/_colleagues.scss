@@ -12,7 +12,13 @@
         text-align: center;
         text-transform: uppercase;
         font-family: "HKGothic-Bold";
-        font-size: 1.8em;
+        font-size: $font-size-md;
+        margin-right: 1em;
+        margin-left: 1em;
+
+        @media screen and (min-width: $breakpoint-medium) {
+            font-size: $font-size-md;
+        }
     }
 
     &__all {
